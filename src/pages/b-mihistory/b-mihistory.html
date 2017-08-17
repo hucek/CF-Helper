@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      BMI - History
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page18">
+  <div id="bMIHistory-container3">
+    <div class="row">
+  <div class="col-md-6">
+    <div style="display: block;">
+    <canvas baseChart width="300" height="200"
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [colors]="lineChartColors"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div class="spacer" style="width:300px;height:26px;" id="bMIHistory-spacer12"></div>
+  <ion-list id="bMIHistory-list8">
+    <ion-item color="none" id="bMIHistory-list-item75">
+      <ion-avatar item-left>
+        <img src="assets/img/Qlv1lIGFQTmcAFqNPFu0_bmi.png" />
+      </ion-avatar>
+      <h2>
+        16.2
+      </h2>
+      <h3>
+        16th Aug 2017 20:22 
+      </h3>
+    </ion-item>
+        <ion-item color="none" id="bMIHistory-list-item75">
+      <ion-avatar item-left>
+        <img src="assets/img/Qlv1lIGFQTmcAFqNPFu0_bmi.png" />
+      </ion-avatar>
+      <h2>
+        17.5
+      </h2>
+      <h3>
+        15th Aug 2017 20:22
+      </h3>
+    </ion-item>
+        <ion-item color="none" id="bMIHistory-list-item75">
+      <ion-avatar item-left>
+        <img src="assets/img/Qlv1lIGFQTmcAFqNPFu0_bmi.png" />
+      </ion-avatar>
+      <h2>
+        14.4
+      </h2>
+      <h3>
+        14th Aug 2017 20:21
+      </h3>
+    </ion-item>
+        <ion-item color="none" id="bMIHistory-list-item75">
+      <ion-avatar item-left>
+        <img src="assets/img/Qlv1lIGFQTmcAFqNPFu0_bmi.png" />
+      </ion-avatar>
+      <h2>
+        20.1
+      </h2>
+      <h3>
+        13th Aug 2017 18:01
+      </h3>
+    </ion-item>
+        <ion-item color="none" id="bMIHistory-list-item75">
+      <ion-avatar item-left>
+        <img src="assets/img/Qlv1lIGFQTmcAFqNPFu0_bmi.png" />
+      </ion-avatar>
+      <h2>
+        16.5
+      </h2>
+      <h3>
+        12th Aug 2017 20:51
+      </h3>
+    </ion-item>
+        <ion-item color="none" id="bMIHistory-list-item75">
+      <ion-avatar item-left>
+        <img src="assets/img/Qlv1lIGFQTmcAFqNPFu0_bmi.png" />
+      </ion-avatar>
+      <h2>
+        15.5
+      </h2>
+      <h3>
+        11th Aug 2017 16:59
+      </h3>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>
